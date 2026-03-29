@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer MC - Best Cracked SMP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+
+        .header h1 {
+            font-size: 3.5em;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #f9ca24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            text-shadow: 0 0 30px rgba(255,107,107,0.5);
+        }
+
+        .server-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .info-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .info-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .info-card h3 {
+            color: #4ecdc4;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .connect-btn, .buy-btn {
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            box-shadow: 0 5px 15px rgba(255,107,107,0.4);
+        }
+
+        .connect-btn:hover, .buy-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(255,107,107,0.6);
+        }
+
+        .store-section {
+            margin: 60px 0;
+        }
+
+        .store-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .ranks-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .rank-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+
+        .rank-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .rank-card:hover::before {
+            left: 100%;
+        }
+
+        .rank-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            border-color: #4ecdc4;
+            box-shadow: 0 25px 50px rgba(78,205,196,0.3);
+        }
+
+        .rank-name {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-shadow: 0 0 20px currentColor;
+        }
+
+        .free-rank .rank-name {
+            color: #ffd700;
+        }
+
+        .vip-rank .rank-name {
+            color: #4ecdc4;
+        }
+
+        .mvp-rank .rank-name {
+            color: #ff6b6b;
+        }
+
+        .elite-rank .rank-name {
+            color: #9b59b6;
+        }
+
+        .lucifer-rank .rank-name {
+            background: linear-gradient(45deg, #ff6b6b, #ffd700, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .rank-price {
+            font-size: 1.8em;
+            margin: 20px 0;
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .free-rank .rank-price {
+            color: #00ff88;
+        }
+
+        .features {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .features li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .features li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: #4ecdc4;
+            font-size: 1.2em;
+        }
+
+        .features-list {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #4ecdc4;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        @keyframes glow {
+            0%, 100% { text-shadow: 0 0 20px currentColor; }
+            50% { text-shadow: 0 0 40px currentColor, 0 0 60px currentColor; }
+        }
+
+        .header h1 {
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5em;
+            }
+            
+            .ranks-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔥 Lucifer MC 🔥</h1>
+            <p>Best Cracked SMP with Donut SMP Experience</p>
+            <p>🛠️ Donut Tools | ❤️ Lifesteal | 💰 Economy Features</p>
+        </div>
+
+        <div class="server-info">
+            <div class="info-card">
+                <h3>🎮 Server Status</h3>
+                <p><strong>ONLINE</strong></p>
+                <p>Not 24/7 but start anytime at:</p>
+                <a href="https://falixnodes.net/startserver" target="_blank" class="connect-btn">
+                    🚀 Start Server
+                </a>
+            </div>
+            <div class="info-card">
+                <h3>🌐 Connect Now</h3>
+                <p><strong>IP:</strong> lucifer-mc.falix.me</p>
+                <p><strong>PORT:</strong> 43239</p>
+                <a href="https://discord.gg/ykkpPz5GAa" target="_blank" class="connect-btn">
+                    💬 Discord
+                </a>
+            </div>
+        </div>
+
+        <div class="store-section">
+            <h2 class="store-title">🛒 Lucifer MC Store</h2>
+            <div class="ranks-grid">
+                <div class="rank-card free-rank" onclick="redirectToDiscord()">
+                    <div class="rank-name">VOID</div>
+                    <div class="rank-price">FREE</div>
+                    <ul class="features">
+                        <li>Discord Role</li>
+                        <li>Basic Chat Access</li>
+                        <li>Server Access</li>
+                    </ul>
+                    <button class="buy-btn" onclick="event.stopPropagation(); redirectToDiscord()">
+                        🎁 Claim Now (Discord)
+                    </button>
+                </div>
+
+                <div class="rank-card vip-rank" onclick="redirectToDiscord()">
+                    <div class="rank-name">VIP</div>
+                    <div class="rank-price">₹30</div>
+                    <div class="features-list">
+                        <ul class="features">
+                            <li>✨ VIP Discord Role</li>
+                            <li>⭐ Custom Chat Color</li>
+                            <li>⚡ Priority Queue</li>
+                            <li>💎 2x Economy Multiplier</li>
+                        </ul>
+                    </div>
+                    <button class="buy-btn" onclick="event.stopPropagation(); redirectToDiscord()">
+                        💎 Buy Now
+                    </button>
+                </div>
+
+                <div class="rank-card mvp-rank" onclick="redirectToDiscord()">
+                    <div class="rank-name">MVP</div>
+                    <div class="rank-price">₹50</div>
+                    <div class="features-list">
+                        <ul class="features">
+                            <li>🌟 MVP Discord Role</li>
+                            <li>🎨 All VIP Features</li>
+                            <li>🔥 Custom Prefix</li>
+                            <li>❤️ Extra Lifesteal Hearts</li>
+                            <li>🛠️ Donut Tools Access</li>
+                        </ul>
+                    </div>
+                    <button class="buy-btn" onclick="event.stopPropagation(); redirectToDiscord()">
+                        🔥 Buy Now
+                    </button>
+                </div>
+
+                <div class="rank-card elite-rank" onclick="redirectToDiscord()">
+                    <div class="rank-name">ELITE</div>
+                    <div class="rank-price">₹99</div>
+                    <div class="features-list">
+                        <ul class="features">
+                            <li>💎 ELITE Discord Role</li>
+                            <li>🎭 All MVP Features</li>
+                            <li>✨ Particle Effects</li>
+                            <li>🏆 Leaderboard Spot</li>
+                            <li>⚔️ Custom Armor Set</li>
+                        </ul>
+                    </div>
+                    <button class="buy-btn" onclick="event.stopPropagation(); redirectToDiscord()">
+                        👑 Buy Now
+                    </button>
+                </div>
+
+                <div class="rank-card lucifer-rank" onclick="redirectToDiscord()">
+                    <div class="rank-name">LUCIFER</div>
+                    <div class="rank-price">₹149</div>
+                    <div class="features-list">
+                        <ul class="features">
+                            <li>😈 LUCIFER Discord Role</li>
+                            <li>👑 All ELITE Features</li>
+                            <li>🌋 Custom Mount</li>
+                            <li>💥 Server Announcements</li>
+                            <li>🔮 Unlimited Donut Tools</li>
+                            <li>⚡ Instant Queue Bypass</li>
+                        </ul>
+                    </div>
+                    <button class="buy-btn" onclick="event.stopPropagation(); redirectToDiscord()">
+                        🔥 Buy Now (BEST)
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>🚀 Join the Best Cracked SMP Experience!</h3>
+            <p>Donut SMP Tools | Lifesteal | Economy | Custom Features</p>
+            <p><strong>IP: lucifer-mc.falix.me:43239</strong></p>
+        </div>
+    </div>
+
+    <script>
+        function redirectToDiscord() {
+            window.open('https://discord.gg/ykkpPz5GAa', '_blank');
+        }
+
+        // Add some interactive effects
+        document.querySelectorAll('.rank-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.borderColor = '#4ecdc4';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.borderColor = 'transparent';
+            });
+        });
+
+        // Smooth scroll for mobile
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
